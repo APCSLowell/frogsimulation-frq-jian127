@@ -27,7 +27,7 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
-		double n = (double)nums;
+		double n = (double)num;
 		double trues = 0;
 		for(double i = 0; i < n; i++){
 			if(simulate() == true){
