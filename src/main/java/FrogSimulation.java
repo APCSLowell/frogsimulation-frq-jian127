@@ -27,14 +27,15 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
+		double n = (double)nums;
 		double trues = 0;
-		for(double i = 0; i < num; i++){
+		for(double i = 0; i < n; i++){
 			if(simulate() == true){
 				trues++;
 			}
 			
 		}
-		return trues/(double)nums;
+		return trues/n;
 
 	}
 	
