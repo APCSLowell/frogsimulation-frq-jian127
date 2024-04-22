@@ -32,8 +32,9 @@ public class FrogSimulation
 			if(simulate() == true){
 				trues++;
 			}
+			
 		}
-		return (double)trues/nums;
+		return trues/(double)nums;
 
 	}
 	
