@@ -22,7 +22,7 @@ public class FrogSimulation
 			if(pos >= goalDistance){
 				return true;
 			}
-			else if(pos < goalDistance){
+			else if(pos < goalDistance || pos < 0){
 				return false;
 			}
 		}
